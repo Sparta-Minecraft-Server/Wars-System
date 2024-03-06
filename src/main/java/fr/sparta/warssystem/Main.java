@@ -6,12 +6,12 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        System.out.println(getPluginMeta().getLoggerPrefix()+" Plugin Chargé");
+        System.out.println(getPluginMeta().getLoggerPrefix()+" Plugin Enabled");
 
     }
 
     @Override
     public void onDisable() {
-        System.out.println(getPluginMeta().getLoggerPrefix()+" Plugin Déchargé");
+        System.out.println(getPluginMeta().getLoggerPrefix()+" Plugin Disabled");
     }
 }
