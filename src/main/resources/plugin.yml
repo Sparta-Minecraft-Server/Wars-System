@@ -1,0 +1,7 @@
+name: WarsSystem
+version: '${project.version}'
+main: fr.sparta.warssystem.Main
+api-version: '1.20'
+prefix: Wars
+depend:
+  - Towny
